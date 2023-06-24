@@ -1,1 +1,0 @@
-{"ast":null,"code":"export const languages = ['en-US', 'es-ES'];\nexport const defaultLanguage = languages[0];","map":null,"metadata":{},"sourceType":"module"}

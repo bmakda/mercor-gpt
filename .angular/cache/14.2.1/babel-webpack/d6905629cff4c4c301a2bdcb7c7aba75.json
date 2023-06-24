@@ -1,1 +1,0 @@
-{"ast":null,"code":"export const environment = {\n  production: true,\n  base_url: \"https://web.hellocommunityapp.com\"\n};","map":null,"metadata":{},"sourceType":"module"}
