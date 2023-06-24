@@ -6,7 +6,7 @@ This project has been implemented entirely using the `TypeScript` language.
 Try the live demo here: [https://bmakda.github.io/mercor-gpt/](https://bmakda.github.io/mercor-gpt/)
 
 ## Watch the Video
-Find the Video Demo [here](https://youtu.be/PIbMsHciovQ)
+Find the Video Demo [here](https://www.youtube.com/watch?v=ZwGk_P-9D5I)
 
 # Running the Project Locally
 First, ensure you have the following installed:
