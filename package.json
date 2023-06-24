@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production --output-path docs --base-ref /mercor-gpt",
+    "build": "ng build --configuration production --output-path=docs --base-href=/mercor-gpt/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
