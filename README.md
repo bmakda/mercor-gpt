@@ -2,10 +2,8 @@
 
 This project has been implemented entirely using the `TypeScript` language.
 
-<img src="./images/web-speech-api.jpg?raw=true">
-
 ## Live Demo
-Try the live demo here: [https://luixaviles.com/web-speech-angular](https://luixaviles.com/web-speech-angular)
+Try the live demo here: [https://bmakda.github.io/mercor-gpt/](https://bmakda.github.io/mercor-gpt/)
 
 ## Watch the Video
 Find the Video Demo [here](https://youtu.be/PIbMsHciovQ)
