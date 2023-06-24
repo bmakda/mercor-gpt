@@ -1,0 +1,14 @@
+[
+  {
+    "main_route": "gpt",
+    "controller_path": "./controllers/gpt",
+    "routes_array": [
+      {
+        "type": "post",
+        "path": "/",
+        "controller_name": "gptRes",
+        "auth": false
+      }
+    ]
+  }
+]
