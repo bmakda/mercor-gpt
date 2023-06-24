@@ -16,11 +16,13 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./web-speech.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
+
 export class WebSpeechComponent implements OnInit {
   languages: string[] = languages;
   currentLanguage: string = defaultLanguage;
   totalTranscript?: string;
   totalResult: string = '';
+  loading: boolean = false;
 
   transcript$?: Observable<string>;
   listening$?: Observable<boolean>;
@@ -127,8 +129,10 @@ export class WebSpeechComponent implements OnInit {
   }
 
   private sendToServer(queryText: string | undefined) {
-    if (queryText && queryText.trim() !== "") {
 
+    if (queryText && queryText.trim() !== "") {
+      this.loading = true;
+      
       let json = {
         queryData: queryText
       };
@@ -146,6 +150,7 @@ export class WebSpeechComponent implements OnInit {
         } else {
           console.log("sendToServer Error from Server");
         }
+        this.loading = false;
       })
     }
   }
